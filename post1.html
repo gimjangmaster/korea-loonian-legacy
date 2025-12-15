@@ -19,25 +19,56 @@
       font-style: normal;
     }
 
-    body {
-      font-family: 'PyeojinGothic-Bold';
-    }
   </style>
+
+  <style>
+    @font-face {
+    font-family: 'SchoolSafetyPoster';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimPosterB.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'SchoolSafetyWing';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimNalgaeR.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+  
+  @font-face {
+    font-family: 'DosStory';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSIyagiMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+  @font-face {
+    font-family: 'SchoolSafeBoardMarker';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimBoadmarkerR.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+  article {
+    font-family: 'SchoolSafetyWing';
+  }
+  </style>
+
 
 </head>
 
 <body>
   <!-- 나브 바-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">한국 루미안 레거시</a>
+  <a class="navbar-brand" href="#" style="font-family: 'DosStory'; font-weight: 900;">한국 루미안 레거시</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family: 'SchoolSafeBoardMarker';">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html" style="font-weight: 800;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://discord.gg/gyBRqnhVJ">디스코드</a>
@@ -47,7 +78,7 @@
           도구
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://saucesoy.github.io/Damage-Calculator/">데미지 계산기</a>
+          <a class="dropdown-item" href="https://saucesoy.github.io/Damage-Calculator/">루미안 데미지 계산기</a>
           <a class="dropdown-item" href="https://hossainshakir.github.io/LoomianTeamCoverage/">루미안 타입 계산기</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="https://loomian-legacy.fandom.com/wiki/Loomian">루미안 레거시 공식 위키</a>
@@ -64,7 +95,7 @@
   <section class="py-5 bg-white">
     <div class="container px-5">
       <!-- 게시글 제목 -->
-      <div class="mb-4 text-center">
+      <div class="mb-4 text-center" style="font-family: 'SchoolSafetyPoster';">
         <h1 class="display-5 fw-bold">KWT(Korean Winter Tournament) <br> 개최 공지 및 규칙 설명</h1>
         <p class="text-muted fs-6">작성자: 펄기아 | 2025년 12월 12일</p>
       </div>
@@ -134,7 +165,7 @@
 1등: 부코 100개 + KWT 우승자 전용 역할  
 2등: 알파 퓨어님블 네버메어  
 공동 4등: 알파 베리님블 실전 위볼트  
-  
+ 
   
   
 마지막으로 신청방법입니다.  
@@ -159,7 +190,6 @@
   
   
 행운을 빕니다.  
-
 `;
 
     // HTML로 변환 후 article에 삽입

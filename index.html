@@ -17,10 +17,28 @@
       font-weight: 700;
       font-style: normal;
     }
+    
+    @font-face {
+    font-family: 'SchoolSafetyWing';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimNalgaeR.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+  
+  @font-face {
+    font-family: 'DosStory';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSIyagiMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
 
-    body {
-      font-family: 'PyeojinGothic-Bold';
-    }
+  @font-face {
+    font-family: 'SchoolSafeBoardMarker';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimBoadmarkerR.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+    
   </style>
 </head>
 
@@ -28,15 +46,15 @@
 
   <!-- 나브 바-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">한국 루미안 레거시</a>
+  <a class="navbar-brand" href="#" style="font-family: 'DosStory'; font-weight: 900;">한국 루미안 레거시</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family: 'SchoolSafeBoardMarker';">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html" style="font-weight: 800;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://discord.gg/gyBRqnhVJ">디스코드</a>
@@ -46,12 +64,21 @@
           도구
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://saucesoy.github.io/Damage-Calculator/">데미지 계산기</a>
-          <a class="dropdown-item" href="https://hossainshakir.github.io/LoomianTeamCoverage/">루미안 타입 계산기</a>
+          <a class="dropdown-item" href="https://discord.gg/vfjuBx9Gbc">루미안 데미지 계산기</a>
+          <a class="dropdown-item" href="https://discord.gg/47R55eNTG5">루미안 타입 계산기</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="https://loomian-legacy.fandom.com/wiki/Loomian">루미안 레거시 공식 위키</a>
         </div>
-      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          기타 자료
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://saucesoy.github.io/Damage-Calculator/">루미안 레거시 샘플</a>
+          <a class="dropdown-item" href="https://discord.gg/47R55eNTG5">루미안 최신 배틀 메타 분석</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://discord.com/channels/1402839343428534282/1402839344049295444/1450082740127928430">루미안 레거시 바로 가기</a>
+        </div>
     </ul>
   </div>
 </nav>
@@ -60,8 +87,8 @@
 
   <!-- 대문 시작 -->
   <div class="p-5 mb-4 bg-gray text-blak rounded-3 text-center">
-    <h1 class="display-8 fw-bold">한국 루미안 레거시 커뮤니티 서버</h1>
-    <p class="fs-4">토너먼트 개최 및 각종 공지</p>
+    <h1 class="display-8 fw-bold" style="font-family: 'DosStory'; font-weight: 900;">한국 루미안 레거시 커뮤니티 서버</h1>
+    <p class="fs-4" style="font-family: 'SchoolSafetyPoster'; font-weight: 500;" >토너먼트 개최 및 각종 공지</p>
     
    
    
@@ -76,8 +103,8 @@
       <div class="d-flex align-items-center">
         <img src="https://i.ibb.co/vC9rWYnj/rounded-in-photoretrica-1-1.png" alt="작성자 이미지">
         <div>
-          <h5>   한국 루미안 레거시</h5>
-          <p>   한국 루미안 레거시 관련 공지</p>
+          <h5 style="font-family: 'SchoolSafeBoardMarker'; font-size: x-large;">   한국 루미안 레거시</h5>
+          <p style="font-family: 'SchoolSafetyWing'; font-weight: 200;">   한국 루미안 레거시 관련 공지</p>
         </div>
       </div>
       </a>
@@ -90,8 +117,8 @@
 
 
   <!-- 최신 글 시작 -->
-  <div class="container">
-    <h2 class="mb-4">정보</h2>
+  <div class="container" style="font-family: 'SchoolSafetyPoster'; font-weight: 500;">
+    <h2 class="mb-4" style="font-family: 'PyeojinGothic-Bold', Courier, monospace;">정보</h2>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
@@ -100,9 +127,9 @@
           <div class="card h-100">
             <img src="https://i.ibb.co/bg3rYd4z/85-BE923-D-56-B6-426-C-92-CD-5-FAD9-B308450.png" class="card-img-top" alt="게시글 이미지">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">KWT(Korean Winter Tournament) <br> 개최 공지 및 규칙 설명</h5>
+              <h5 class="card-title" style="font-family: 'SchoolSafetyPoster'; font-weight: 700;">KWT(Korean Winter Tournament) <br> 개최 공지 및 규칙 설명</h5>
               <p class="card-text">토너먼트 밴 루미안 및 유저</p>
-              <p class="card-text mt-auto"><small class="text-muted">2025년 12월 12일</small></p>
+              <p class="card-text mt-auto"><small class="text-muted" style="font-family: 'PyeojinGothic-Bold';">2025년 12월 12일</small></p>
             </div>
           </div>
         </a>
@@ -113,9 +140,9 @@
           <div class="card h-100">
             <img src="https://i.ibb.co/bg3rYd4z/85-BE923-D-56-B6-426-C-92-CD-5-FAD9-B308450.png" class="card-img-top" alt="게시글 이미지">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">KWT 참가 신청</h5>
+              <h5 class="card-title"style="font-family: 'SchoolSafetyPoster'; font-weight: 700;">KWT 참가 신청</h5>
               <p class="card-text">KWT 규칙 및 밴 대상 숙지 후 신청 바랍니다.</p>
-              <p class="card-text mt-auto"><small class="text-muted">2025년 12월 12일</small></p>
+              <p class="card-text mt-auto"><small class="text-muted" style="font-family: 'PyeojinGothic-Bold';">2025년 12월 12일</small></p>
             </div>
           </div>
         </a>
