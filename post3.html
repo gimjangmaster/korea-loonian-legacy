@@ -11,9 +11,9 @@
   <meta property="og:image" content="https://i.ibb.co/7NNsYG56/mika-swimsuit-1.jpg"/>
   <meta property="og:image:width" content="960" />
   <meta property="og:image:height" content="730" />
-
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <title>한국 루미안 레거시</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
   crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,8 +25,17 @@
       font-weight: 700;
       font-style: normal;
     }
-    
+
+  </style>
+
+  <style>
     @font-face {
+    font-family: 'SchoolSafetyPoster';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimPosterB.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
     font-family: 'SchoolSafetyWing';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimNalgaeR.woff2') format('woff2');
     font-weight: normal;
@@ -46,12 +55,16 @@
     font-weight: normal;
     font-display: swap;
 }
-    
+
+  article {
+    font-family: 'SchoolSafetyWing';
+  }
   </style>
+
+
 </head>
 
 <body>
-
   <!-- 나브 바-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#" style="font-family: 'DosStory'; font-weight: 900;">한국 루미안 레거시</a>
@@ -72,8 +85,8 @@
           도구
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://discord.gg/vfjuBx9Gbc">루미안 데미지 계산기</a>
-          <a class="dropdown-item" href="https://discord.gg/47R55eNTG5">루미안 타입 계산기</a>
+          <a class="dropdown-item" href="https://saucesoy.github.io/Damage-Calculator/">루미안 데미지 계산기</a>
+          <a class="dropdown-item" href="https://hossainshakir.github.io/LoomianTeamCoverage/">루미안 타입 계산기</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="https://loomian-legacy.fandom.com/wiki/Loomian">루미안 레거시 공식 위키</a>
         </div>
@@ -93,95 +106,75 @@
   <!-- 나브바 끝-->
 
 
-  <!-- 대문 시작 -->
-  <div class="p-5 mb-4 bg-gray text-blak rounded-3 text-center">
-    <h1 class="display-8 fw-bold" style="font-family: 'DosStory'; font-weight: 900;">한국 루미안 레거시 커뮤니티 서버</h1>
-    <p class="fs-4" style="font-family: 'SchoolSafetyPoster'; font-weight: 500;" >토너먼트 개최 및 각종 공지</p>
+
+
+  <!-- 마크다운 영역 추가 -->
+  <section class="py-5 bg-white">
+    <div class="container px-5">
+      <!-- 게시글 제목 -->
+      <div class="mb-4 text-center" style="font-family: 'SchoolSafetyPoster';">
+        <h1 class="display-5 fw-bold">한국 루미안 레거시<br> </h1>
+        <p class="text-muted fs-6">작성자: 김장전문가 | 2025년 12월 26일</p>
+      </div>
+      <!-- 마크다운으로 들어갈 본문 -->
+      <article id="markdown-content" class="mb-5 mt-5 fs-5" style="line-height: 1.8;"></article>
+  </section>
+
+
+
+  <script>
+    // 마크다운 텍스트: 밥을 먹는 방법
+    const markdownText = `
+  안녕하세요. 한국 루미안 레거시 디스코드 귀요미(중요) 담당 스태프 김장전문가입니다.  
+최근 개최했던 KWT가 폐막하면서 고생하신 여러분들을 위해 1월 초 2026년 새해를 맞이하여,  
+루미안 레거시 새해맞이 손가락 흔들기 토너먼트를 개최하고자 합니다.  
+  
+  먼저 토너먼트의 규칙 먼저 알아봅시다.  
     
-   
-   
-   
-  </div>
-  <!-- 대문 끝 -->
-
-  <!-- 작가 정보 시작 -->
-  <div class="container mb-5">
-    <div class="card p-3 mb-3">
-      <a href="post2.html" style="text-decoration: none;color: black;">
-      <div class="d-flex align-items-center">
-        <img src="https://i.ibb.co/vC9rWYnj/rounded-in-photoretrica-1-1.png" alt="작성자 이미지">
-        <div>
-          <h5 style="font-family: 'SchoolSafeBoardMarker'; font-size: x-large;">   한국 루미안 레거시</h5>
-          <p style="font-family: 'SchoolSafetyWing'; font-weight: 200;">   한국 루미안 레거시 관련 공지</p>
-        </div>
-      </div>
-      </a>
-    </div>
-  </div>
-  <!-- 작가 정보 끝 -->
-
-  <!-- 인기글 시작 -->
- 
-
-
-  <!-- 최신 글 시작 -->
-  <div class="container" style="font-family: 'SchoolSafetyPoster'; font-weight: 500;">
-    <h2 class="mb-4" style="font-family: 'PyeojinGothic-Bold', Courier, monospace;">정보</h2>
-
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
+  ### 1. 이번 토너먼트는 *2vs2* 배틀로 진행됩니다.  
+  즉, 여러분들은 신청 하실 때 다른 유저 한 분과 팀을 이루어 참가하셔야 합니다.  
+  또한, 우승 보상은 우승 팀 팀원 두 사람 모두가 얻는 것이 아닌, 우승 팀 안 에서 두 파트너 끼리의  
+  손가락 흔들기 배틀을 진행하여 최종 1인에게 우승 상품이 주어집니다.  
     
-      <div class="col">
-        <a href="post3.html" style="text-decoration:none;">
-          <div class="card h-100">
-            <img src="https://i.ibb.co/bg3rYd4z/85-BE923-D-56-B6-426-C-92-CD-5-FAD9-B308450.png" class="card-img-top" alt="게시글 이미지">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title" style="font-family: 'SchoolSafetyPoster'; font-weight: 700;"> 새해 맞이 손가락 흔들기 대회 개최 공지</h5>
-              <p class="card-text">보상 및 기타 정보</p>
-              <p class="card-text mt-auto"><small class="text-muted" style="font-family: 'PyeojinGothic-Bold';">2025년 12월 26일</small></p>
-            </div>
-          </div>
-        </a>
-      </div>
+  ### 2. 손가락 흔들기를 제외한 모든 기술의 사용 및 파티 내의 소지를 금지합니다.  
+  예외적인 경우로 파티 내의 기술이 손흔만 존재할 경우에 한하여, 'summon'기술의 사용을 허가합니다.  
+  또한, 'two face' 특성 소지 루미안에 한하여 손흔 이외의 기술 소지를 허용합니다. 그러나, 만약 pivot 기술로 나오거나 부나리끼리의 대면 등으로 인해,  
+  two face 특성이 발동 되지 않을 경우, '반드시' 교체를 하여 이후 어떻게든 'two face' 특성을 발동시키셔야 합니다. 만약 그러지 못 할 경우 자동으로 탈락 처리 됩니다.  
+  마지막으로, two face 루미안이 손가락 흔들기 이외의 다른 기술을 보유한 상황에서의 summon 기술 사용은 '금지'됩니다.  
+  
+  ### 3. 룰은 캐주얼로 진행되나, 도구 및 루미안 중복 사용은 금지됩니다.  
+  또한, 만약 소울버스트 루미안을 사용할 경우, 소울버스트 기술 사용시 자동으로 탈락 처리 됩니다.  
     
-      <div class="col">
-        <a href="post1.html" style="text-decoration:none;">
-          <div class="card h-100">
-            <img src="https://i.ibb.co/bg3rYd4z/85-BE923-D-56-B6-426-C-92-CD-5-FAD9-B308450.png" class="card-img-top" alt="게시글 이미지">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title" style="font-family: 'SchoolSafetyPoster'; font-weight: 700;">KWT(Korean Winter Tournament) <br> 개최 공지 및 규칙 설명</h5>
-              <p class="card-text">토너먼트 밴 루미안 및 유저</p>
-              <p class="card-text mt-auto"><small class="text-muted" style="font-family: 'PyeojinGothic-Bold';">2025년 12월 12일</small></p>
-            </div>
-          </div>
-        </a>
-      </div>
+  ### 4. 상대방에게 티배깅, 욕설, 협박 등 부적절한 행동을 하신다면 그자리에서 실격처리됩니다.  
+    
+  ### 5. 경기 시작 후 연결이 끊길 경우 자동으로 탈락처리 됩니다.  
+    
+  다음은 모두가 기대하는 우승 보상입니다.  
+    
+  이번 토너먼트의 우승 보상은 1등 단 한 명에게만 주어지며, 2등, 3등, 그리고 이외의 모두에게 어떠한 보상도 없습니다.  
+  이번 토너먼트의 우승 보상은 #감마 PVP 프로토곤# 입니다.
 
-      <div >
-        <a href="https://docs.google.com/forms/d/1O-3IQlPpKmdbZdQy6Ael6K8HGBFyMFxiHUPGQze7ZzQ/edit?usp=drivesdk" style="text-decoration:none;">
-          <div class="card h-100">
-            <img src="https://i.ibb.co/bg3rYd4z/85-BE923-D-56-B6-426-C-92-CD-5-FAD9-B308450.png" class="card-img-top" alt="게시글 이미지">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title"style="font-family: 'SchoolSafetyPoster'; font-weight: 700;">KWT 참가 신청</h5>
-              <p class="card-text">KWT 규칙 및 밴 대상 숙지 후 신청 바랍니다.</p>
-              <p class="card-text mt-auto"><small class="text-muted" style="font-family: 'PyeojinGothic-Bold';">2025년 12월 12일</small></p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      
+  토너먼트 일정은 아직 확정되지 않았으나, 1월 초에 진행할 예정이며, 파티 등록 기간 또한 미정입니다.  
+    위 사항은 추후 변경 될 수 있습니다.  
 
 
-    </div>
-  </div>
-  <!-- 최신 글 끝 -->
+
+
+
+
+`;
+
+    // HTML로 변환 후 article에 삽입
+    document.getElementById('markdown-content').innerHTML = marked.parse(markdownText);
+  </script>
+
+
 
   <!-- 푸터 시작 -->
   <footer class="text-center p-4 mt-5">
     © 2025 한국 루미안 레거시
   </footer>
-  <!-- 푸터 시작 -->
+  <!-- 푸터 끝 -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -190,6 +183,5 @@
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
 </body>
-
 
 </html>
